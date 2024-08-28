@@ -17,6 +17,7 @@ public class Movie {
 
     @Id
     private ObjectId id;
+    private String imdbId;
     private String title;
     private String releaseDate;
     private String trailerLinks;
@@ -30,6 +31,7 @@ public class Movie {
         return "Movie{" +
                 "backdrops=" + backdrops +
                 ", id=" + id +
+                ", imdbId='" + imdbId + '\'' +
                 ", title='" + title + '\'' +
                 ", releaseDate='" + releaseDate + '\'' +
                 ", trailerLinks='" + trailerLinks + '\'' +
